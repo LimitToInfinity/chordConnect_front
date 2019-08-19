@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <main class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <button class="nav-button">Agents</button>
+                <button class="nav-button">Merchandisers</button>
+                <button class="nav-button">Designers</button>
+                <button class="nav-button">Coaches</button>
+                <button class="nav-button">Maps</button>
+                <button class="nav-button" id="stop-button">Stop</button>
+            </ul>
+        </nav>
+            <div class="logo-container">
+                <h1 class="logo">ChordConnect</h1>
+                <button class="menu fa fa-bars"></button>
+            </div>
+            <h3 class="dashboard-header">Artist Dashboard</h3>
+            <h2 class="artist-name-header">Artist's Name</h2>
+            <div class="inner-menu">
+                <ul class="inner-menu-list">
+                    <button class="inner-menu-header" id="venues">Venues</button>
+                    <button class="inner-menu-header" id="messages">Messages</button>
+                    <button class="inner-menu-header" id="calendar">Calendar</button>
+                    <button class="inner-menu-header" id="payments">Payments</button>
+                    <button class="inner-menu-header" id="buyers">Buyers</button>
+                </ul>
+            </div>
+            <section class="menu-item-container" id="venues-container">
+                <div class="update-venue-form-container"></div>
+                <div class="new-venue-form-container">
+                    <form class="new-venue-form">
+                        <label class="venue-name-label" id="new-venue-name-label">Venue Name</label>
+                        <input type="text" name="new-venue-name" class="venue-name-input" id="new-venue-name-input"/>
+                        <label class="venue-description-label" id="new-venue-description-label">Venue Description</label>
+                        <textarea type="text" name="new-venue-description" class="venue-description-input" id="new-venue-description-input"></textarea>
+                        <input type="submit" value="&#xf067" class="new-venue-form-submit"/>
+                    </form>
+                </div>
+                <div class="venue-cards-container"></div>
+            </section>
+            <section class="menu-item-container" id="messages-container">
+                Messages coming soon!
+            </section>
+            <section class="menu-item-container" id="calendar-container">
+                <img class="calendar-image" src="./assets/pictures/calendar2.png"/>
+            </section>
+            <section class="menu-item-container" id="payments-container">
+                Payments coming soon!
+            </section>
+            <section class="menu-item-container" id="buyers-container">
+                <img class="buyer-image" src="./assets/pictures/xzibitDiv.jpg"/>
+            </section>
+            <div class="easter-egg-holder"><div class="easter-egg"></div></div>
+        </main>
+        <script src="./app.js"></script>
+    </body>
+</html>
