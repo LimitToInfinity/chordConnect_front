@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", postLoad)
 
 function postLoad() {
 
-    const artistURL = "http://localhost:3000/artists";
-    const venueURL = "http://localhost:3000/venues";
+    const artistURL = "https://chordconnectback.herokuapp.com/artists";
+    const venueURL = "https://chordconnectback.herokuapp.com/venues";
     const menuButton = document.querySelector(".menu");
     const sideNavBar = document.querySelector(".nav");
     const innerMenuList = document.querySelector(".inner-menu-list");
