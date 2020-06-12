@@ -19,7 +19,10 @@
       src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
       integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
       crossorigin=""
-    ></script>
+      defer
+      ></script>
+      <script src="./src/leaflet.js" defer></script>
+      <script src="./src/app.js" defer></script>
 
     <title>Chord Connect</title>
   </head>
@@ -69,7 +72,7 @@
         
         <div class="venue-cards-container"></div>
         
-        <div id="mapid"></div>
+        <div id="map"></div>
       </section>
       
       <section class="menu-item-container" id="messages-container">
@@ -90,6 +93,5 @@
       
       <div class="easter-egg-holder"><div class="easter-egg"></div></div>
     </main>
-    <script src="./src/app.js"></script>
   </body>
 </html>

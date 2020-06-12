@@ -206,7 +206,6 @@ function postLoad() {
     venueDescription.textContent = venue.description;
     venueDescriptionDiv.append(venueDescription);
 
-
     const frontCardButtonsDiv = document.createElement("div");
     frontCardButtonsDiv.className = "venue-front-card-buttons-div";
     const deleteButton = document.createElement("button");
